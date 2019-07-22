@@ -1,0 +1,370 @@
+/*----Home----*/
+#artpic {
+    height: 50%;
+    width: 100%;
+}
+navbar {
+    position: fixed;
+    width: 99.7%;
+    top: 15px;
+    text-align: center;
+    background-color: seagreen;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    height: 70px;
+    z-index: 10;
+    border: 3px solid white;
+}
+
+li {
+    margin: 0 30px;
+    top: 0px;
+    font-size: 25px;
+    font-family: Segoe Script;
+    display: inline;
+}
+
+li a{
+    color:white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: blue;
+    padding: 18px 0;
+}
+
+.brantley {
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    right: 18px;
+    left: 965px;
+    color: white;
+    font-family: MS Gothic;
+    font-size: 65px;
+     text-shadow:
+        -2.5px -2.5px 0 #000,
+		2.5px -2.5px 0 #000,
+		-2.5px 2.5px 0 #000,
+		2.5px 2.5px 0 #000;
+}
+
+.megan {
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    right: 20px;
+    left: 950px;
+    color: white;
+    font-family: Segoe Script;
+    font-size: 50px;
+     text-shadow:
+         -2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.accent1 {
+    position: absolute;
+    text-align: center;
+    top: 243px;
+    right: 630px;
+    color: white;
+    font-family: Segoe Script;
+    font-size: 60px;
+     text-shadow:
+      -2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.accent2 {
+    position: absolute;
+    text-align: center;
+    top: 243px;
+    right: 235px;
+    color: white;
+    font-family: Segoe Script;
+    font-size: 60px;
+    text-shadow:
+      -2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
+
+.description {
+    position: absolute;
+    text-align: center;
+    top: 550px;
+    right: 315px;
+    color: white;
+    font-family: Georgia;
+    font-size: 20px;
+    text-shadow:
+        -2.5px -2.5px 0 #000,
+		2.5px -2.5px 0 #000,
+		-2.5px 2.5px 0 #000,
+		2.5px 2.5px 0 #000;
+}
+
+#paintstroke {
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.paragraph1 {
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    color: black;
+    top: 1575px;
+    right: 150px;
+	z-index: 2;
+}
+
+#frame {
+    position: absolute;
+    color: white;
+    top: 1450px;
+    right: 120px;
+    z-index: 1;
+    height: 500px;
+    width: 620px;
+    border: 2px solid black;
+}
+
+.hello {
+    position: absolute;
+    font-size: 75px;
+    font-family: Segoe Script;
+    color: black;
+    top: 1480px;
+    right: 340px;
+	z-index: 2;
+}
+
+#artpic2 {
+    position: absolute;
+    color: white;
+    top: 1550px;
+    right: 1100px;
+    z-index: 2;
+    height: 500px;
+    width: 700px;
+    border: 4px solid black;
+}
+
+#first {
+    position: absolute;
+    color: white;
+    top: 1375px;
+    right: 900px;
+    z-index: 2;
+    height: 450px;
+    width: 300px;
+    border: 4px solid black;
+}
+
+/*---Portfolio----*/
+
+
+.gallery {
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.gallery img {
+    float: left;
+    height: 500px;
+    margin: 50px;
+    
+}
+
+.gallery img .desc {
+    margin: 0;
+    padding: 5%;
+    font-size: .75em;
+    color: black;
+}
+
+/*-----About-----*/
+
+#background {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+}
+
+#artist {
+    position: absolute;
+    width: 400px;
+    top: 225px;
+    left: 160px;
+    z-index: 2;
+    border: 2px solid white;
+}
+
+.me {
+    position: absolute;
+    top: 375px;
+    left: 1200px;
+    height: 315px;
+    
+}
+
+#white {
+    position: absolute;
+    top: 225px;
+    left: 675px;
+    width: 425px;
+    height: 600px;
+    z-index: 0;
+    border: 2px solid black;
+}
+
+.paragraph2 {
+    position: absolute;
+    text-align: center;
+    top: 430px;
+    right: 885px;
+    font-size: 16px;
+    z-index: 2;
+}
+
+#contact {
+    position: absolute;
+    bottom: 175px;
+    left: 820px;
+    width: 150px;
+}
+
+#about {
+    position: absolute;
+    top: 230px;
+    left: 735px;
+    width: 325px;
+}
+
+/*----Blog------*/
+
+#place {
+    position: absolute;
+    width: 24%;
+    height: 70%;
+    left: 300px;
+    top: 175px;
+    border: 2px solid white;
+}
+
+#nyc {
+    position: absolute;
+    width: 23%;
+    height: 70%;
+    left: 300px;
+    top: 1850px;
+    border: 2px solid white;
+    
+}
+
+#bethany {
+    position: absolute;
+    width: 21%;
+    height: 70%;
+    top: 1000px;
+    right: 300px;
+    border: 2px solid white;
+}
+
+.paragraph3 {
+    position: absolute;
+    top: 400px;
+    right: 285px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    width: 700px;
+    height: 250px;
+}
+
+.paragraph4 {
+    position: absolute;
+    top: 1250px;
+    left: 300px;
+    font-size: 25px;
+    text-align: center;
+    width: 700px;
+    height: 250px;
+}
+
+.paragraph5 {
+    position: absolute;
+    font-family: Georgia;
+    font-size: 65px;
+    top: 200px;
+    right: 370px;
+    color: white;
+    text-shadow:
+        -2.5px -2.5px 0 #000,
+		2.5px -2.5px 0 #000,
+		-2.5px 2.5px 0 #000,
+		2.5px 2.5px 0 #000;
+}
+
+.beta {
+    position: absolute;
+    top: 350px;
+    right: 500px;
+    font-family: Segoe Script;
+    font-size: 35px;
+    color: white;
+}
+
+.cyc {
+    position: absolute;
+    top: 1150px;
+    left: 650px;
+    font-family: Segoe Script;
+    font-size: 35px;
+}
+
+.nyc {
+    position: absolute;
+    top: 1950px;
+    right: 600px;
+    font-family: Segoe Script;
+    font-size: 35px;
+}
+
+.cs {
+    position: absolute;
+    top: 2050px;
+    right: 550px;
+    font-size: 30px;
+}
+
+#bright {
+    width: 100%;
+    height: 950px;
+}
+
+#stripes {
+    width: 100%;
+    height: 800px;
+}
+
+#blur {
+    width: 100%;
+    height: 800px;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Megan's Portfolio</title>
+        <link href="css/normalize.css" rel="stylesheet" type="text/css"> 
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		
+		<!------------------reference for slideshow--------------------------
+		        https://www.w3schools.com/w3css/w3css_slideshow.asp
+	    -------------------------------------------------------------------->
+    </head>
+    <style>
+        h2 {
+            margin-top: 150px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: Segoe Script;
+            color: white;
+            text-shadow:
+                -2.5px -2.5px 0 #000,
+		        2.5px -2.5px 0 #000,
+		        -2.5px 2.5px 0 #000,
+	        	2.5px 2.5px 0 #000;
+	        font-size: 50px;
+	        font-weight: bold;
+        }
+        .buttons {
+            position: relative;
+            padding-top: 4px;
+        }
+        .mySlides {
+            color: white;
+	        font-weight: bold;
+	        font-size: 20px;
+	        border: 5px solid white;
+        }
+        body {
+            background-image: url("img/pback.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        @media screen and (max-width: 1400px) {
+           h2 {
+               margin-top: 90px;
+               font-size: 40px;
+               margin-bottom: 10px;
+           } 
+           .buttons {
+               padding-top: 2px;
+           }
+           .mySlides {
+               max-height: 450px;
+               width: auto;
+           }
+        }
+        @media screen and (max-width: 1100px) {
+            li {
+                margin: 0 15px;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            #pback {
+                height: 736px;
+            }
+            navbar {
+                top: 0;
+            }
+            li {
+                margin: 0 5px;
+                font-size: 15px;
+            }
+            li a:hover {
+                padding: 5px;
+            }
+            .mySlides {
+                max-width: 400px;
+            }
+            .pback {
+                width: 100%;
+            }
+        
+    </style>
+        
+    <body>
+        <div class="nav">
+        <navbar>
+            <ul>
+            <li>
+                <a href="index.html">home.</a>
+            </li>
+            <li>
+                <a href="about.html">about the artist.</a>
+            </li>
+            <li>
+                <a href="portfolio.html">portfolio.</a>
+            </li>
+            <li>
+                <a href="shop.html">shop.</a>
+            </li>
+            <li>
+                <a href="blog.html">blog.</a>
+            </li>
+            <li>
+                <a href="contact.html">contact me.</a>
+            </li>
+            </ul>
+        </navbar>
+        </div>
+        <div class="s1">
+            
+        </div>
+        
+        
+        
+        <!----------------------Slideshow-------------------->
+        
+        
+        
+        <h2 class=w3-center>Art is...</h2>
+        <div class="w3-content w3-display-container" style="width: 450px; text-align: center; margin: 0 auto;">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <img class="mySlides" src="img/beta.jpg" alt="painting of woman (one first place at Tennessee State Beta Convention)" style="width:100%">
+        <img class="mySlides" src="img/dean.jpg" alt="painting of a man" style="width: 100%">
+        <img class="mySlides" src="img/emperor.jpg" alt="charcoal of an emperor" style="width: 100%">
+        <img class="mySlides" src="img/fbla.jpg" alt="painting of the FBLA flag with school lion in the corner" style="width: 100%">
+        <img class="mySlides" src="img/monroe.jpg" alt="charcoal of Maralyn Monroe" style="width: 100%">
+        <img class="mySlides" src="img/old-man.jpg" alt="painting of an older man" style="width: 100%">
+        <img class="mySlides" src="img/watercolor.jpg" alt="watercolor painting" style="width: 100%">
+        <img class="mySlides" src="img/eye.jpg" alt="sketch of an eye" style="width: 100%">
+        <img class="mySlides" src="img/dean2.jpg" alt="ink sketch of man" style="width: 100%">
+        <img class="mySlides" src="img/perspective.jpg" alt="watercolor perspective" style="width: 100%">
+        <img class="mySlides" src="img/self-portrait.jpg" alt="charcoal self-portrait" style="width: 100%">
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length} ;
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+    }
+        </script>
+    </body>
+    
+</html>

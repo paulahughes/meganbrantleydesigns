@@ -1,0 +1,98 @@
+<div class="nav">
+        <navbar>
+            <ul>
+            <li>
+                <a href="index.html">home.</a>
+            </li>
+            <li>
+                <a href="about.html">about the artist.</a>
+            </li>
+            <li>
+                <a href="portfolio.html">portfolio.</a>
+            </li>
+            <li>
+                <a href="shop.html">shop.</a>
+            </li>
+            <li>
+                <a href="blog.html">blog.</a>
+            </li>
+            <li>
+                <a href="contact.html">contact me.</a>
+            </li>
+            </ul>
+        </navbar>
+        </div>
+        <h1>Art is...</h1>
+        <div class="gallery">
+            <a target ="_blank" href="img/be-strong.jpg">
+                <img src="img/be-strong.jpg" id="be" alt="The words Be Strong written with lavendar flowers beneath it painting.">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/beta.jpg">
+                <img src="img/beta.jpg" id="beta" alt="1st place award for picture of young woman with covered face painting.">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..........">
+                <img src=".........." id="car" alt="A man sitting on the hood of a car at the edge of a cliff sketch.">
+            </a>
+            <div class="desc">add a descritpion here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/dean.jpg">
+                <img src="img/dean.jpg" id="dean" alt="Male portrait ink sketch">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/emperor.jpg">
+                <img src="img/emperor.jpg" id="emperor" alt="charcoal of an emperor">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/fbla.jpg">
+                <img src="img/fbla.jpg" id="fbla" alt="FBLA flag with blue lion in top left corner painting">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="..........">
+                <img src=".........." id="hamilton" alt="Hamilton musical logo over glittery gold backdrop painting">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/monroe.jpg">
+                <img src="img/monroe.jpg" id="monroe" alt="charcoal of Marilyn Monroe">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/old-man.jpg">
+                <img src="img/old-man.jpg" id="old" alt="old man painting">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/watercolor.jpg">
+                <img src="img/watercolor.jpg" id="water" alt="abstract watercolor">
+            </a>
+            <div class="desc">add a description here</div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
